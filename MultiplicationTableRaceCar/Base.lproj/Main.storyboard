@@ -42,13 +42,6 @@
                                 <rect key="frame" x="710" y="206" width="85" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OB2-X0-Zye">
-                                <rect key="frame" x="117" y="177" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mg1-Bo-IxW">
                                 <rect key="frame" x="722" y="157" width="42" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -102,7 +95,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
-                                            <action selector="myAnsButtonPressed:" destination="FSB-VV-91E" eventType="touchUpInside" id="qxF-Vb-z4F"/>
+                                            <action selector="myAnsButtonPressed:" destination="FSB-VV-91E" eventType="touchUpInside" id="CmB-xu-tmt"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kjy-Ir-3GF">
@@ -110,7 +103,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
-                                            <action selector="myAnsButtonPressed:" destination="FSB-VV-91E" eventType="touchUpInside" id="cgu-Cl-24P"/>
+                                            <action selector="myAnsButtonPressed:" destination="FSB-VV-91E" eventType="touchUpInside" id="8lD-QK-fq0"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sl7-9F-bIw">
@@ -118,7 +111,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
-                                            <action selector="myAnsButtonPressed:" destination="FSB-VV-91E" eventType="touchUpInside" id="j3a-Wv-Kxa"/>
+                                            <action selector="myAnsButtonPressed:" destination="FSB-VV-91E" eventType="touchUpInside" id="tMR-73-g3X"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -139,7 +132,8 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
-                                            <action selector="enemyAnsButtonPressed:" destination="FSB-VV-91E" eventType="touchUpInside" id="7y6-Fq-Uhz"/>
+                                            <action selector="enemyAnsButtonPressed:" destination="FSB-VV-91E" eventType="touchUpInside" id="Rff-iw-AbL"/>
+                                            <action selector="myAnsButtonPressed:" destination="FSB-VV-91E" eventType="touchUpInside" id="Dlt-8O-GCi"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3d-lo-PqX">
@@ -147,7 +141,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
-                                            <action selector="enemyAnsButtonPressed:" destination="FSB-VV-91E" eventType="touchUpInside" id="X0O-YS-e2D"/>
+                                            <action selector="enemyAnsButtonPressed:" destination="FSB-VV-91E" eventType="touchUpInside" id="hPD-dE-KDu"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYZ-E2-Ohc">
@@ -155,7 +149,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
-                                            <action selector="enemyAnsButtonPressed:" destination="FSB-VV-91E" eventType="touchUpInside" id="Qpo-l9-5ed"/>
+                                            <action selector="enemyAnsButtonPressed:" destination="FSB-VV-91E" eventType="touchUpInside" id="8NS-cb-N6D"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -173,7 +167,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebw-Me-jno">
-                                <rect key="frame" x="208" y="167" width="42" height="31"/>
+                                <rect key="frame" x="187" y="167" width="85" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZy-h8-StM">
+                                <rect key="frame" x="129" y="238" width="106" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OB2-X0-Zye">
+                                <rect key="frame" x="99" y="166" width="80" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -205,12 +213,13 @@
                         <outlet property="myImageViewB" destination="oja-lS-20T" id="PUV-xM-MEa"/>
                         <outlet property="myNumberA" destination="OB2-X0-Zye" id="39f-AM-hTk"/>
                         <outlet property="myNumberB" destination="ebw-Me-jno" id="pRK-tX-gYq"/>
+                        <outlet property="myResultAns" destination="lZy-h8-StM" id="ZQm-qn-RyL"/>
                         <outlet property="mySlider" destination="3Mw-23-OL2" id="1QT-gY-urG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="97R-tf-b4D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2160.2678571428569" y="2147.826086956522"/>
+            <point key="canvasLocation" x="-3013" y="1642"/>
         </scene>
     </scenes>
     <resources>
